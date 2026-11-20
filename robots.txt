@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://gimdevelope.github.io/bokjikkultong-finder/sitemap.xml
