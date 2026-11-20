@@ -644,13 +644,13 @@ details.grp>summary:after{content:'';display:none}
     <h2>복지꿀통 지원금 진단기</h2>
     <p>자바스크립트를 켜면 6개 질문으로 조건별 판정과 공고 원문 근거를 볼 수 있어요. 아래는 2026년 11월 20일 기준 수록 공고입니다.</p>
     <ul>
-      <li>농식품바우처 (신청 2026.12.11까지) — <a href="https://www.foodvoucher.go.kr">foodvoucher.go.kr</a></li>
+      <li>농식품바우처 (신청 2026.12.11까지) — <a href="https://blog.bokjiro.go.kr/1855">foodvoucher.go.kr</a></li>
       <li>스포츠강좌이용권 (2026.11.27까지) — <a href="https://svoucher.kspo.or.kr">svoucher.kspo.or.kr</a></li>
       <li>문화누리카드 (2026.11.30까지) — <a href="https://www.mnuri.kr">mnuri.kr</a></li>
       <li>근로·자녀장려금 기한 후 신청 (2026.12.1까지) — <a href="https://www.hometax.go.kr">hometax.go.kr</a></li>
       <li>에너지바우처 (2026.12.31까지) — <a href="https://www.bokjiro.go.kr">bokjiro.go.kr</a></li>
       <li>기초연금 (상시) — <a href="https://www.bokjiro.go.kr">bokjiro.go.kr</a></li>
-      <li>K-패스·모두의카드 (상시) — <a href="https://www.korea-pass.kr">korea-pass.kr</a></li>
+      <li>K-패스·모두의카드 (상시) — <a href="https://main.kotsa.or.kr/portal/contents.do?menuCode=01080300">korea-pass.kr</a></li>
       <li>청년월세 지원 (2026 접수 종료, 다음 모집 대기) — <a href="https://www.bokjiro.go.kr">bokjiro.go.kr</a></li>
     </ul>
   </div>
@@ -661,7 +661,7 @@ details.grp>summary:after{content:'';display:none}
 const DATA_VERSION = '2026-11-20';
 
 const SRC = {
-  food:      { n:'농식품바우처 누리집 · 바우처 소개', u:'https://www.foodvoucher.go.kr/view/fm/vucintro/agriFood' },
+  food:      { n:'복지로 · 2026년 농식품 바우처 안내', u:'https://blog.bokjiro.go.kr/1855' },
   sports:    { n:'정부24 · 스포츠강좌 이용권 지원', u:'https://www.gov.kr/portal/service/serviceInfo/137100000006' },
   culture:   { n:'정부24 · 통합문화이용권(문화누리카드)', u:'https://www.gov.kr/portal/service/serviceInfo/137100000236' },
   earned:    { n:'정부24 · 근로·자녀장려금', u:'https://www.gov.kr/portal/service/serviceInfo/105100000001' },
@@ -719,7 +719,7 @@ const POLICIES = [
   {
     id:'food', name:'농식품바우처', org:'농림축산식품부',
     status:'open', deadline:'2026-12-11', period:'2025.12.22 ~ 2026.12.11 (수시 신청)',
-    applyUrl:'https://www.foodvoucher.go.kr', applyLabel:'농식품바우처 누리집', contact:'1551-0857',
+    applyUrl:'https://blog.bokjiro.go.kr/1855', applyLabel:'복지로 농식품바우처 안내', contact:'1551-0857',
     facts:a=>[['신청 마감','12월 11일(금)'],['지원 금액','월 4만~18만 7천원 (가구원 수별)'],['대상','생계급여 + 임산부·영유아·아동·청년 포함 가구']],
     detail:[
       '청년은 1992~2007년생, 영유아는 2020년 이후 출생, 아동은 2008~2019년생이에요.',
@@ -1009,7 +1009,7 @@ const POLICIES = [
   {
     id:'kpass', name:'K-패스 (모두의카드)', org:'국토교통부 · 한국교통안전공단',
     status:'always', period:'상시 가입 · 월 15회 이상 이용',
-    applyUrl:'https://www.korea-pass.kr', applyLabel:'모두의카드 누리집', contact:'카드사 · 누리집 안내',
+    applyUrl:'https://main.kotsa.or.kr/portal/contents.do?menuCode=01080300', applyLabel:'교통안전공단 K-패스 안내', contact:'카드사 · 누리집 안내',
     facts:[['신청','상시 (마감 없음)'],['지원 금액','이용액의 20~53.3% 환급'],['대상','만 19세 이상 + 월 15회 이상']],
     detail:[
       '청년(만 19~34세) 30%, 저소득(수급·차상위) 53.3%, 2자녀 30%, 3자녀 이상 50%예요.',
